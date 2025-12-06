@@ -14,7 +14,7 @@ export const PROPERTYLISTINGSAMPLE: PropertyProps[] = [
       country: "Indonesia",
     },
     rating: 4.89,
-    category: ["Luxury Villa", "Pool", "Free Parking"],
+    category: ["Luxury Villa", "Pool", "Free Parking", "Ocean View", "Private Beach Access", "Full Kitchen", "Air Conditioning", "WiFi"],
     price: 3200,
     offers: {
       bed: "3",
@@ -22,7 +22,40 @@ export const PROPERTYLISTINGSAMPLE: PropertyProps[] = [
       occupants: "4-6",
     },
     image: "https://example.com/image1.jpg",
+    images: [
+      "https://example.com/image1.jpg",
+      "https://example.com/image1.jpg",
+      "https://example.com/image1.jpg",
+      "https://example.com/image1.jpg",
+      "https://example.com/image1.jpg",
+    ],
     discount: "",
+    description: "Experience the ultimate luxury getaway at Villa Ocean Breeze, a stunning beachfront property in the heart of Seminyak, Bali. This exquisite villa offers breathtaking ocean views, a private infinity pool, and direct access to pristine white sand beaches.\n\nWith three beautifully appointed bedrooms, each featuring en-suite bathrooms and modern amenities, this villa comfortably accommodates up to 6 guests. The open-plan living area seamlessly blends indoor and outdoor living, perfect for entertaining or simply relaxing with loved ones.\n\nThe fully equipped kitchen allows you to prepare your own meals, or you can take advantage of the nearby world-class restaurants. The property also includes a private garden, outdoor dining area, and dedicated parking space.\n\nLocated just minutes from Seminyak's famous beach clubs, shopping districts, and cultural attractions, Villa Ocean Breeze offers the perfect balance of tranquility and convenience.",
+    reviews: [
+      {
+        name: "Sarah Johnson",
+        avatar: "/assets/profile 1.svg",
+        rating: 5,
+        comment: "Absolutely stunning villa! The ocean views were breathtaking and the pool was perfect. The location is ideal - close to everything but still feels private. We'll definitely be back!",
+      },
+      {
+        name: "Michael Chen",
+        avatar: "/assets/profile 2.svg",
+        rating: 4.5,
+        comment: "Great stay overall. The villa is well-maintained and the amenities are top-notch. The only minor issue was the WiFi speed, but everything else was perfect.",
+      },
+      {
+        name: "Emma Williams",
+        avatar: "/assets/profile 1.svg",
+        rating: 5,
+        comment: "Perfect for our family vacation! The kids loved the pool and beach access. The host was very responsive and helpful. Highly recommend!",
+      },
+    ],
+    host: {
+      name: "Made Wijaya",
+      avatar: "/assets/profile 2.svg",
+      about: "Hello! I'm Made, a local Balinese host with over 10 years of experience in hospitality. I'm passionate about sharing the beauty of Bali with guests from around the world.\n\nI've carefully curated Villa Ocean Breeze to provide an authentic yet luxurious experience. I'm always available to help with recommendations for local restaurants, activities, and cultural experiences.\n\nMy goal is to ensure you have an unforgettable stay and fall in love with Bali just as I have. Feel free to reach out anytime - I'm here to make your stay perfect!",
+    },
   },
   {
     name: "Mountain Escape Chalet",
@@ -32,7 +65,7 @@ export const PROPERTYLISTINGSAMPLE: PropertyProps[] = [
       country: "USA",
     },
     rating: 4.7,
-    category: ["Mountain View", "Fireplace", "Self Checkin"],
+    category: ["Mountain View", "Fireplace", "Self Checkin", "Hot Tub", "Ski Access", "Full Kitchen", "Heating", "WiFi"],
     price: 1800,
     offers: {
       bed: "4",
@@ -40,7 +73,34 @@ export const PROPERTYLISTINGSAMPLE: PropertyProps[] = [
       occupants: "5-7",
     },
     image: "https://example.com/image2.jpg",
+    images: [
+      "https://example.com/image2.jpg",
+      "https://example.com/image2.jpg",
+      "https://example.com/image2.jpg",
+      "https://example.com/image2.jpg",
+      "https://example.com/image2.jpg",
+    ],
     discount: "30",
+    description: "Nestled in the heart of the Rocky Mountains, Mountain Escape Chalet offers a cozy retreat with spectacular mountain views. This charming 4-bedroom chalet is perfect for families or groups seeking adventure and relaxation.\n\nThe property features a rustic yet modern interior with a stone fireplace, perfect for warming up after a day on the slopes. The fully equipped kitchen makes it easy to prepare meals, and the spacious living area provides plenty of room for everyone to gather.\n\nWith direct ski access and proximity to world-class ski resorts, this chalet is ideal for winter sports enthusiasts. In the summer, enjoy hiking, mountain biking, and fishing in the nearby wilderness areas.\n\nThe outdoor hot tub offers year-round relaxation with stunning mountain vistas. Self-check-in makes arrival easy, and the property includes all the amenities you need for a comfortable mountain getaway.",
+    reviews: [
+      {
+        name: "David Thompson",
+        avatar: "/assets/profile 2.svg",
+        rating: 5,
+        comment: "Perfect ski getaway! The chalet is cozy and well-equipped. The fireplace and hot tub were amazing after a day on the slopes. Great value for the location!",
+      },
+      {
+        name: "Lisa Anderson",
+        avatar: "/assets/profile 1.svg",
+        rating: 4,
+        comment: "Beautiful property with amazing views. The self-check-in was seamless. The only thing missing was a coffee maker, but we managed. Would stay again!",
+      },
+    ],
+    host: {
+      name: "James Mitchell",
+      avatar: "/assets/profile 2.svg",
+      about: "Hi there! I'm James, a Colorado native and outdoor enthusiast. I've been hosting this mountain chalet for 5 years and love sharing the beauty of the Rockies with guests.\n\nI'm passionate about skiing, hiking, and all things mountain-related. I'm always happy to provide recommendations for the best trails, ski runs, and local restaurants.\n\nMy goal is to make your mountain escape unforgettable. Whether you're here for skiing, hiking, or just to relax, I'm here to help make it perfect!",
+    },
   },
   {
     name: "Cozy Desert Retreat",
@@ -50,7 +110,7 @@ export const PROPERTYLISTINGSAMPLE: PropertyProps[] = [
       country: "USA",
     },
     rating: 4.92,
-    category: ["Desert View", "Pet Friendly", "Self Checkin"],
+    category: ["Desert View", "Pet Friendly", "Self Checkin", "Pool", "Outdoor Shower", "BBQ Grill", "Air Conditioning", "WiFi"],
     price: 1500,
     offers: {
       bed: "2",
@@ -58,7 +118,34 @@ export const PROPERTYLISTINGSAMPLE: PropertyProps[] = [
       occupants: "2-3",
     },
     image: "https://example.com/image3.jpg",
+    images: [
+      "https://example.com/image3.jpg",
+      "https://example.com/image3.jpg",
+      "https://example.com/image3.jpg",
+      "https://example.com/image3.jpg",
+      "https://example.com/image3.jpg",
+    ],
     discount: "",
+    description: "Escape to this charming desert retreat in Palm Springs, where modern comfort meets desert beauty. This intimate 2-bedroom property is perfect for couples or small families seeking a peaceful getaway.\n\nThe property features a private pool and outdoor area perfect for soaking up the California sun. The desert views are spectacular, especially at sunset. The fully equipped kitchen and comfortable living space make it feel like home.\n\nPet-friendly accommodations mean you can bring your furry friends along. The property includes a fenced yard and plenty of space for pets to play safely.\n\nLocated in a quiet neighborhood but just minutes from Palm Springs' famous attractions, restaurants, and shopping. Self-check-in ensures a smooth arrival, and the property is equipped with all modern amenities for your comfort.",
+    reviews: [
+      {
+        name: "Jennifer Martinez",
+        avatar: "/assets/profile 1.svg",
+        rating: 5,
+        comment: "Loved our stay! The pool was perfect for the hot desert days, and the views were incredible. Our dog had a great time too. Highly recommend!",
+      },
+      {
+        name: "Robert Taylor",
+        avatar: "/assets/profile 2.svg",
+        rating: 4.5,
+        comment: "Great little retreat. Very clean and well-maintained. The outdoor space is lovely. Perfect for a weekend getaway.",
+      },
+    ],
+    host: {
+      name: "Maria Garcia",
+      avatar: "/assets/profile 1.svg",
+      about: "Hello! I'm Maria, a Palm Springs local who loves sharing this beautiful desert oasis with guests. I've been hosting for 3 years and take pride in providing a comfortable, welcoming space.\n\nI'm passionate about the desert lifestyle and can recommend the best hiking trails, restaurants, and local attractions. I'm also a pet lover, so I understand how important it is to find pet-friendly accommodations.\n\nI'm always available to help make your stay perfect. Whether you need restaurant recommendations or tips for exploring the area, I'm here to help!",
+    },
   },
   {
     name: "City Lights Penthouse",

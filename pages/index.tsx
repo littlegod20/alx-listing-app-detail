@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import Image from "next/image";
+import Link from "next/link";
 import { PROPERTYLISTINGSAMPLE, HERO_BACKGROUND_IMAGE } from "@/constants";
 import { PropertyProps } from "@/interfaces";
 import Pill from "@/components/common/Pill";
@@ -94,9 +95,10 @@ export default function Home() {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
           {PROPERTYLISTINGSAMPLE.map(
             (property: PropertyProps, index: number) => (
-              <div
+              <Link
                 key={index}
-                className="rounded-xl overflow-hidden shadow-md hover:shadow-xl transition-shadow cursor-pointer"
+                href={`/property/${encodeURIComponent(property.name)}`}
+                className="rounded-xl overflow-hidden shadow-md hover:shadow-xl transition-shadow cursor-pointer block"
               >
                 {/* Property Image */}
                 <div className="relative w-full h-64">
@@ -161,7 +163,7 @@ export default function Home() {
                     </div>
                   </div>
                 </div>
-              </div>
+              </Link>
             )
           )}
         </div>
